@@ -1,0 +1,244 @@
+
+img {
+    width: 100%;
+}
+
+.floating-text {
+    position: absolute; 
+    font-size: 50px;
+    font-weight: 900;
+
+    
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.image-stage {
+    position: relative; 
+    width: 100%;
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+
+.overlay-img {
+    position: absolute;
+}
+
+
+.img-left-top {
+    width: 300px;
+    top: 40%;
+    left: 17%;
+}
+
+
+.img-right-top {
+    width: 300px;
+    top: 35%;
+    left: 40%;
+}
+
+.img-center {
+    width: 300px;
+    top: 50%;
+    left: 40%;
+
+}
+
+.img-bottom-right {
+    width: 300px;
+    bottom: 22%;
+    right: 30%;
+}
+
+.img-bottom-left {
+    width: 300px;
+    bottom: 50%;
+    right: 17%;
+}
+
+h2{
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    font-size: 80px;
+}
+
+h4{
+    position: absolute;
+    top: 58%;
+    left: 45%;
+    font-size: 20px;
+}
+
+h5{
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    font-size: 15px;
+
+}
+
+h6{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 20px;
+
+}
+h7{
+    position: absolute;
+    top: 57%;
+    left: 45%;
+    font-size: 18px;
+
+}
+
+.img-lt{
+    width: 350px;
+    top: 35%;
+    left: 19%;
+}
+
+.img-rt{
+    width:400px;
+    top: 50%;
+    left: 15%;
+}
+.img-c{
+    width: 400px;
+    top: 53%;
+    left: 15%;
+}
+.img-b{
+    width: 400px;
+    top: 53%;
+    left: 15%;
+}
+
+.img-bl{
+    width: 400px;
+    top: 53%;
+    left: 15%;
+}
+
+@media (max-width: 768px) {
+
+.target-image {
+  display: none;
+}
+.full-screen-bg {
+  width: 100vw;                
+  height: 100vh;
+  background-image: url('phone_UI.png');
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+ .container {
+    flex-direction: column;
+  }
+  .floating-text {
+    position: absolute; 
+    font-size: 40px;
+    font-weight: 900;
+
+    
+    top: 23%;
+    left:54%;
+    transform: translate(-50%, -50%);
+}
+
+.img-left-top {
+    width: 100px;
+    top: 26%;
+    left: 37%;
+}
+.img-right-top {
+    width: 180px;
+    top: 42.5%;
+    left: 37%;
+}
+
+.img-center {
+    width: 180px;
+    top: 53%;
+    left: 37%;
+
+}
+
+.img-bottom-right {
+    width: 180px;
+    bottom: 26%;
+    left: 37%;
+}
+
+.img-bottom-left {
+    width: 180px;
+    bottom: 15%;
+    left: 37%;
+}
+h2{
+    position: absolute;
+    top: 48%;
+    left: 29%;
+    font-size: 40px;
+}
+.img-lt{
+    width: 150px;
+    top: 25%;
+    left: 40%;
+}
+h4{
+    position: absolute;
+    top: 60%;
+    left: 30.5%;
+    font-size: 12px;
+}
+
+h5{
+    position: absolute;
+    top: 75%;
+    left: 30.5%;
+    font-size: 11px;
+
+}
+.img-rt{
+    width:250px;
+    top: 30%;
+    left: 30%;
+}
+h6{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    font-size: 12px;
+
+}
+.img-c{
+    width: 250px;
+    top: 35%;
+    left: 30%;
+}
+
+.img-b{
+    width: 250px;
+    top: 30%;
+    left: 30%;
+}
+h7{
+    position: absolute;
+    top: 60%;
+    left: 29%;
+    font-size: 10px;
+
+}
+.img-bl{
+    width: 250px;
+    top: 30%;
+    left: 30%;
+}
+}

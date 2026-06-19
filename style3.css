@@ -1,0 +1,222 @@
+img {
+    width: 100%;
+}
+
+.floating-text {
+    position: absolute; 
+    font-size: 50px;
+    font-weight: 900;
+
+    
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.image-stage {
+    position: relative; 
+    width: 100%;
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+
+.overlay-img {
+    position: absolute;
+}
+
+
+
+
+
+.img-left-top {
+    width: 500px;
+    top: 37%;
+    left: 20%;
+}
+
+.img-right-top {
+    width: 400px;
+    top: 60%;
+    left: 20%;
+}
+
+.img-center {
+    width: 500px;
+    top: 50%;
+    left: 20%;
+
+}
+
+.img-bottom-right {
+    width: 400px;
+    bottom: 27%;
+    right: 20%;
+}
+
+.img-bottom-left {
+    width: 350px;
+    bottom: 45%;
+    right: 20%;
+}
+
+h2{
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    font-size: 80px;
+}
+
+h4{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    font-size: 20px;
+}
+
+h5{
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    font-size: 15px;
+
+}
+
+h6{
+    position: absolute;
+    top: 53%;
+    left: 45%;
+    font-size: 20px;
+
+}
+.img-lt{
+    width: 430px;
+    top: 60%;
+    left: 15%;
+}
+.img-rt{
+    width: 430px;
+    top: 60%;
+    left: 15%;
+}
+.img-c{
+    width: 430px;
+    top: 60%;
+    left: 15%;
+}
+.img-br{
+    width: 430px;
+    top: 60%;
+    left: 15%;
+}
+.img-bl{
+    width: 430px;
+    top: 55%;
+    left: 15%;
+}
+
+@media (max-width: 768px) {
+
+.target-image {
+  display: none;
+}
+.full-screen-bg {
+  width: 100vw;                
+  height: 100vh;
+  background-image: url('phone_UI.png');
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+ .container {
+    flex-direction: column;
+  }
+
+  .floating-text {
+    position: absolute; 
+    font-size: 40px;
+    font-weight: 900;
+
+    
+    top: 26%;
+    left:60.5%;
+    transform: translate(-50%, -50%);
+}
+
+.img-left-top {
+    width: 200px;
+    top: 36%;
+    left: 35%;
+}
+.img-right-top {
+    width: 200px;
+    top: 43%;
+    left: 35%;
+}
+
+.img-center {
+    width: 200px;
+    top: 54%;
+    left: 35%;
+
+}
+
+.img-bottom-right {
+    width: 200px;
+    bottom: 33%;
+    left: 35%;
+}
+
+.img-bottom-left {
+    width: 200px;
+    bottom: 20%;
+    left: 35%;
+}
+.img-lt{
+    width: 250px;
+    top: 40%;
+    left: 30%;
+}
+h2{
+    position: absolute;
+    top: 48%;
+    left: 29%;
+    font-size: 35px;
+}
+h4{
+    position: absolute;
+    top: 57%;
+    left: 29%;
+    font-size: 12px;
+}
+h5{
+    position: absolute;
+    top: 75%;
+    left: 29%;
+    font-size: 11px;
+
+}
+
+.img-rt{
+    width: 250px;
+    top: 40%;
+    left: 30%;
+}
+
+.img-c{
+    width: 270px;
+    top: 40%;
+    left: 27.8%;
+}
+.img-br{
+    width: 250px;
+    top: 40%;
+    left: 30%;
+}
+.img-bl{
+    width: 250px;
+    top: 37%;
+    left: 30%;
+}
+}
